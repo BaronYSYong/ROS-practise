@@ -13,27 +13,6 @@ $ echo "source /opt/ros/indigo/setup.bas h" >> ~/.bashrc
 $ sudo apt-get install python-rosinstall
 ```
 
-## Install NEXTAGE Open 
-http://wiki.ros.org/rtmros_nextage/Tutorials/Install%20NEXTAGE%20OPEN%20software%20on%20your%20machine
-
-```
-$ sudo apt-get update && sudo apt-get install ros-indigo-rtmros-nextage ros-indigo-rtmros-hironx
-$ rtmlaunch nextage_ros_bridge nextage_ros_bridge_simulation.launch
-$ rtmlaunch hironx_ros_bridge hironx_ros_bridge_simulation.launch   (HIRO)
-$ rtmlaunch nextage_ros_bridge nextage_ros_bridge_simulation.launch (NEXTAGE OPEN)
-```
-
-Reference scripts 
-```
-/opt/ros/indigo/lib/python2.7/dist-packages/hironx_ros_bridge
-/opt/ros/indigo/lib/python2.7/dist-packages/nextage_ros_bridge
-/opt/ros/indigo/lib/python2.7/dist-packages/hrpsys/hrpsys_config.py
-```
-
-
-
-
-
 ## ROS Tutorial
 http://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem
 
