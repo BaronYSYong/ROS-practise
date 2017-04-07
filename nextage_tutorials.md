@@ -9,7 +9,6 @@ http://wiki.ros.org/rtmros_nextage/Tutorials/Install%20NEXTAGE%20OPEN%20software
 
 ```
 $ sudo apt-get update && sudo apt-get install ros-indigo-rtmros-nextage ros-indigo-rtmros-hironx
-$ rtmlaunch nextage_ros_bridge nextage_ros_bridge_simulation.launch
 $ rtmlaunch hironx_ros_bridge hironx_ros_bridge_simulation.launch   (HIRO)
 $ rtmlaunch nextage_ros_bridge nextage_ros_bridge_simulation.launch (NEXTAGE OPEN)
 ```
