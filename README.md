@@ -1,6 +1,10 @@
-# ROS_Practices
+# ROS Nextage Practice
 
-## Installation of ROS in Ubuntu 14.04
+## Environment
+* Ubuntu 14.04
+* ROS Indigo
+
+## Installation of ROS Indigo in Ubuntu 14.04
 http://wiki.ros.org/indigo/Installation/Ubuntu
 
 ```
