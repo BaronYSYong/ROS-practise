@@ -1,11 +1,11 @@
 # ROS Nextage Practice
 
-## Interactive ROS Indigo environment with Docker
-* https://opensource-robotics.tokyo.jp/?p=2936&lang=en
-
 ## Environment
 * Ubuntu 14.04
 * ROS Indigo
+
+## Interactive ROS Indigo environment with Docker
+* https://opensource-robotics.tokyo.jp/?p=2936&lang=en
 
 ## Installation of ROS Indigo in Ubuntu 14.04
 http://wiki.ros.org/indigo/Installation/Ubuntu
