@@ -10,7 +10,7 @@ RUN apt-get update && \
     python-rosinstall 
     
 RUN rosdep init && rosdep update && \
-    echo "source /opt/ros/indigo/setup.bas h" >> ~/.bashrc
+    echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
     
     
     
