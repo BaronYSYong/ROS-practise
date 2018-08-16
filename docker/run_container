@@ -1,0 +1,15 @@
+# Run container
+
+CONTAINER_NAME=${1}
+IMAGE_NAME=${2}
+
+docker run -it \
+    --env="DISPLAY" \
+    --env="QT_X11_NO_MITSHM=1" \
+    --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
+    --volume="${HOME}/workspace:/workspace:rw" \
+    --device=/dev/video0:/dev/video0:rwm \
+    --net=host -v /dev:/dev \
+    --privileged=true \
+    --name=${CONTAINER_NAME} \
+    ${IMAGE_NAME}
