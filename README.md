@@ -33,6 +33,7 @@ $ rtmlaunch nextage_ros_bridge nextage_ros_bridge_simulation.launch (NEXTAGE OPE
 * http://wiki.ros.org/rtmros_nextage/Tutorials
 * http://wiki.ros.org/rtmros_nextage/Tutorials/Programming_Hiro_NEXTAGE_OPEN_RTM
 * http://docs.ros.org/indigo/api/hironx_rpc_server/html/
+* https://rtmros-nextage.readthedocs.io/en/latest/
 
 ## Command
 * setTargetPose('rarm', [0.32, -0.18, 0.06], [-3, -1.5, 3.0], tm=3)
